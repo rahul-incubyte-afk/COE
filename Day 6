@@ -1,0 +1,54 @@
+Knows RICE and Kano and their trade-offs
+- RICE and Kano are both prioritization techniques.
+- RICE breaks down into Reach, Impact, Confidence and the Effort taken to develop a feature. Based on these, a score is generated and given to each feature.
+- When we compare all the features and their RICE scores, that's how we prioritize them. It's one way of prioritizing.
+- Kano is another way. It categorizes features into those that are indifferent and those that could cause dissatisfaction.
+- It's a quick way of prioritizing. It helps us identify wow features, performance-enhancing features and MVP features when we are working with limited time and resources.
+
+
+Explains why a framework produced a decision
+- A framework works like a science: we give scores, or we estimate that certain features will give a certain reach or value to our customers.
+- But it doesn't understand the customer's emotions. For example, a framework might say that building a social login isn't that important, but for usability it's very important because it gives our customers easy access.
+- Frameworks work on science and facts, while gut feel depends on how well we understand the customer and the domain.
+- The person giving these scores can use them to prioritize features much better than by going on gut feeling alone.
+- At the end of the day, the product person who gives the scores and prioritizes the features understands the domain and the customer, and that's how they arrive at those scores.
+- So low-value features get lower priority, and high-value, high-impact features become the top priority.
+
+
+Estimates the cost of an AI feature
+- First, list all the components that will cost us. These include LLM calls, the channels we integrate with, infrastructure, and the people needed to build and maintain the AI feature.
+- For the LLM, it's about how many input tokens and how many output tokens we need per call. Agents usually multiply these calls.
+- There are multiple formulas to calculate the cost per conversation for an AI product.
+- The overall cost comes from the elements listed above. Beyond that, the number of tokens used and the infrastructure used show how much the AI will cost.
+- To estimate the actual cost, we can run a pilot with realistic conversations, log the token usage, track the transactions with the AI and average out the distribution.
+
+
+Weighs capability against latency and cost
+- Every AI design decision trades off three main things: capability, latency and cost. It's very rare to get all three in any one model.
+- A large model has high capability, but it will be slow and the cost will also be high.
+- A smaller model has lower capability and faster latency. And also latency will be high. The cost will be low.
+- So eventually you can do the maths on how capability, latency and cost work out for each model.
+- To decide which model to choose:
+- Understand the minimum quality that's acceptable to you.
+- Based on that, set your latency budget, meaning how fast you need to respond. A floor needs to be set there as well.
+- Understand what it costs when the model makes a mistake.
+- Then find the cheapest, fastest option that meets your quality standards.
+
+
+Reasons about build versus buy
+- Build versus buy is a technique most product people use when developing a new feature.
+- If building a feature will cost us more in money, time and effort, we tend to look at other products in the market that could be integrated with ours.
+- We can learn what features that product comes with and integrate it to fulfil our product's needs. This saves time and effort, though the money that goes into it could be higher.
+- As I said, money and time can't both be optimized together, so we have to compromise on something.
+- If two of the values are being met and we're losing on either time or money, it completely depends on the product development cycle: how soon we need it, or how soon our customers need it.
+
+
+Defines metrics for AI features
+- Is it worth it? This defines the business outcome.
+- Do people succeed with it and like it? Is the user experience good enough that the drop-off rate is low?
+- Is the AI doing the right thing? Is the AI's quality good, okay or bad, based on how it responds to the user's intent?
+- Is it avoiding harm? Is the AI complying with safety and maintaining the customer's trust, without leaking personal information or hallucinating answers?
+- Is it fast, cheap and reliable? This covers operations: low latency, low cost per conversation and few errors.
+
+
+
