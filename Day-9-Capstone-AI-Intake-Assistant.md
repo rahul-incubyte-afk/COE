@@ -79,31 +79,10 @@ I picked this one because if it's wrong, the feature can directly harm patients.
 - About 2,000 input tokens and 300 output tokens per call.
 - A mid-tier model priced around $3 per million input tokens and $15 per million output tokens.
 
-**Running cost**
-
-| Item | Calculation | Per month |
-|---|---|---|
-| Input tokens | 3,000 × 3 × 2,000 = 18M tokens × $3/M | ~$54 |
-| Output tokens | 3,000 × 3 × 300 = 2.7M tokens × $15/M | ~$41 |
-| **Model cost** | | **~$95 (about $0.03 per conversation)** |
-| Hosting, logging, monitoring | Estimate | ~$150 |
-| Nurse review time | ~30% of cases flagged × 1 min each = ~15 hrs | Staff time |
-
-**Benefit**
-
-- Front desk spends about 5 minutes per intake today. If the AI handles most of it, I'd estimate saving ~3 minutes per intake, which is **~150 staff hours a month**.
-- Minus ~15 hours of nurse review, that's **~135 hours a month saved**.
-- The harder-to-price benefit is urgent patients being picked out sooner.
 
 **One-time build cost**
 
 - Around 2 engineers for 6 weeks, plus my time for evals and design.
-
-**Model choice**
-
-- Urgency rating needs good reasoning, so I wouldn't go for the cheapest model there.
-- Follow-up questions and summaries could use a smaller, faster model.
-- Since the model cost is so low compared to staff time, I'd optimise for quality and latency first, not cost.
 
 **Build vs buy**
 
