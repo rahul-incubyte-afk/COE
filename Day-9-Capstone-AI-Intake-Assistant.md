@@ -211,7 +211,6 @@ Patient chat → follow-up questions → red-flag check → summary + urgency �
 - **Nurse side:** a review screen showing the patient's own words, the urgency picker (nurse chooses first), then the AI's suggestion and the linked summary, with Approve / Edit / Reject.
 - **Booking:** the patient sees the confirmed slot once the nurse approves.
 
-**Built with:** Claude artifacts *(link to be added)*
 
 **What it doesn't do yet:** real calendar integration, real patient records, or the full eval pipeline.
 
