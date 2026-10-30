@@ -1,4 +1,4 @@
-# Day 9: Capstone – AI Intake and Urgency Assistant
+# Day 10: Capstone – AI Intake and Urgency Assistant
 
 For the capstone I took one AI feature through the full cycle I've learned over the last two weeks: framing the problem, writing the spec, making the cost case, defining evals, designing for trust, building a prototype and explaining my decisions.
 
