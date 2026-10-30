@@ -1,4 +1,4 @@
-# Day 10: Delivery with AI-First Engineering
+# Day 9: Delivery with AI-First Engineering
 
 My notes on how engineering delivery changes when AI writes a lot of the code: the Incubyte plugins engineers use with Claude Code, how I'd estimate and slice work, why review discipline still matters, what DORA's research says about AI, and what I'd monitor once an AI feature is live.
 
